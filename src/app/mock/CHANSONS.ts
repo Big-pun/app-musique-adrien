@@ -1,6 +1,6 @@
 import { Chanson } from "../interfaces/chanson";
 
-export const chansons: Chanson[] = [
+export const CHANSONS: Chanson[] = [
     {
       titre: "Still D.R.E.",
       artisteNom: "Dr. Dre",
@@ -28,7 +28,7 @@ export const chansons: Chanson[] = [
     {
       titre: "À la gloire de l'ennui",
       artisteNom: "Lucio Bukowski",
-      albumNom: "Mani Deïz, l'album chansons",
+      albumNom: "Chansons",
       date: "2014-03-10",
       duree: 212,
       lectures: 450000,
@@ -36,7 +36,7 @@ export const chansons: Chanson[] = [
     {
       titre: "Le dernier homme",
       artisteNom: "Lucio Bukowski",
-      albumNom: "Mani Deïz, l'album chansons",
+      albumNom: "Chansons",
       date: "2014-03-10",
       duree: 187,
       lectures: 350000,
@@ -44,7 +44,7 @@ export const chansons: Chanson[] = [
     {
       titre: "La rime et la raison",
       artisteNom: "Lucio Bukowski",
-      albumNom: "Mani Deïz, l'album chansons",
+      albumNom: "Chansons",
       date: "2014-03-10",
       duree: 275,
       lectures: 300000,

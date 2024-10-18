@@ -1,4 +1,5 @@
 import { Liste } from "../interfaces/liste";
+import { CHANSONS } from "./CHANSONS";
 
 export const LISTES: Liste[] = [
   {
@@ -14,7 +15,7 @@ export const LISTES: Liste[] = [
     titre: 'Lucio Bukowsky',
     type: 'Artiste',
     sousTitre: "Les chansons de Lucio Bukowsky que j'écoute",
-    chansons: [],
+    chansons: [CHANSONS[3], CHANSONS[4], CHANSONS[5]],
     date: '2024-01-01',
     visible: true,
     nbSauvegardes: 0,
@@ -23,7 +24,7 @@ export const LISTES: Liste[] = [
     titre: '2001',
     type: 'Album',
     sousTitre: 'Best album of the year',
-    chansons: [],
+    chansons: [CHANSONS[0], CHANSONS[1], CHANSONS[2]],
     date: '1991-16-11',
     visible: true,
     nbSauvegardes: 675,
