@@ -1,14 +1,14 @@
 import { Chanson } from "./chanson";
 
 export interface Liste {
-    id: number;
+    id?: number;
     titre: string;
-    sousTitre: string;
-    image: string;
-    description: string;
+    sousTitre?: string;
+    image?: string;
+    description?: string;
     type: string;
-    verifie: boolean;
-    date: Date;
+    verifie?: boolean;
+    date: string;
     visible: boolean;
     nbSauvegardes: number;
     chansons: Chanson[];

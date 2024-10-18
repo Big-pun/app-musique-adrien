@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { ListeSommaireComponent } from "../liste-sommaire/liste-sommaire.component";
+import { LISTES } from '../../mock/LISTES';
+
 
 @Component({
   selector: 'app-bibliotheque',
@@ -9,10 +11,6 @@ import { ListeSommaireComponent } from "../liste-sommaire/liste-sommaire.compone
   styleUrl: './bibliotheque.component.css'
 })
 export class BibliothequeComponent {
+  listes = LISTES;
 
-  listes = [
-    {titre: 'Podcasts', type: 'Liste de lecture', sousTitre: 'Les podcasts que j\'écoute'},
-    {titre: 'Lucio Bukowsky', type: 'Artiste', sousTitre: 'Les chansons de Lucio Bukowsky que j\'écoute'},
-    {titre: '2001', type: 'Album', sousTitre: 'Best album of the year'},
-  ];
 }
