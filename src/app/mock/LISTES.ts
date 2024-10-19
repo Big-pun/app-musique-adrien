@@ -14,8 +14,8 @@ export const LISTES: Liste[] = [
   {
     titre: 'Lucio Bukowsky',
     type: 'Artiste',
-    sousTitre: "Les chansons de Lucio Bukowsky que j'écoute",
-    chansons: [CHANSONS[3], CHANSONS[4], CHANSONS[5]],
+    sousTitre: "Les chansons de Lucio Bukowski",
+    chansons: [CHANSONS[3]],
     date: '2024-01-01',
     visible: true,
     nbSauvegardes: 0,

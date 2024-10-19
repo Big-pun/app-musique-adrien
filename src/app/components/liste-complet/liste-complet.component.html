@@ -1,4 +1,4 @@
-@for (liste of liste; track $index) {
+
   <div class="liste-complet">
       <p>{{ liste.titre }}</p>
       <p>{{ liste.sousTitre }}</p>
@@ -9,14 +9,12 @@
       <p>{{ liste.nbSauvegardes }}</p>
 
 
-      @if (liste.chansons && liste.chansons.length > 0) {
+
           <div class="liste-complet-chansons">
               <p>Chansons</p>
               @for (chanson of liste.chansons; track $index) {
                   <app-chansons [chanson]="chanson"></app-chansons>
               }
           </div>
-      }
   </div>
-}
 

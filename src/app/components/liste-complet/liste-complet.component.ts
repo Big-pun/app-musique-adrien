@@ -12,6 +12,6 @@ import { ListeSommaireComponent } from '../liste-sommaire/liste-sommaire.compone
   styleUrl: './liste-complet.component.css',
 })
 export class ListeCompletComponent {
-  @Input() liste: Liste[] = LISTES;
+  @Input() liste = LISTES[2];
   chansons: any;
 }
